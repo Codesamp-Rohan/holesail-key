@@ -22,7 +22,7 @@ npm install holesail-key
 ### Basic Operations
 
 ```javascript
-import HolesailKey from '@holesail/holesail-key';
+import HolesailKey from '/holesail-key';
 
 // Add a new key
 const newKey = HolesailKey.addKey('holesail-key');
