@@ -1,5 +1,5 @@
 {
-  "name": "holesail-key",
+  "name": "@holesail/holesail-key",
   "version": "1.0.0",
   "description": "Secure key management for Holesail P2P tunneling",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["holesail", "p2p", "encryption", "key-management"],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Rohan Chaudhary <rohan.design@icloud.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
