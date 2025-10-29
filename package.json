@@ -1,13 +1,18 @@
 {
   "name": "holesail-key",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Secure key management for Holesail P2P tunneling",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["holesail", "p2p", "encryption", "key-management"],
+  "keywords": [
+    "holesail",
+    "p2p",
+    "encryption",
+    "key-management"
+  ],
   "author": "Rohan Chaudhary <rohan.design@icloud.com>",
   "license": "MIT",
   "repository": {
