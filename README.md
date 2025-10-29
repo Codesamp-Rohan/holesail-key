@@ -14,7 +14,7 @@ A secure, file-based key management system for the `Holesail P2P reverse tunneli
 ## Installation
 
 ```bash
-npm install @holesail/holesail-key
+npm install holesail-key
 ```
 
 ## Usage
