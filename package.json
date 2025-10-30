@@ -1,6 +1,6 @@
 {
   "name": "holesail-key",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Secure key management for Holesail P2P tunneling",
   "main": "src/index.js",
   "type": "module",
