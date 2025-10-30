@@ -1,12 +1,9 @@
 {
   "name": "holesail-key",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Secure key management for Holesail P2P tunneling",
   "main": "src/index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "holesail",
     "p2p",
@@ -14,15 +11,15 @@
     "key-management"
   ],
   "author": "Rohan Chaudhary <rohan.design@icloud.com>",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/holesail/holesail-key.git"
+    "url": "https://github.com/Codesamp-Rohan/holesail-key.git"
   },
   "bugs": {
-    "url": "https://github.com/holesail/holesail-key/issues"
+    "url": "https://github.com/Codesamp-Rohan/holesail-key/issues"
   },
-  "homepage": "https://github.com/holesail/holesail-key#readme",
+  "homepage": "https://github.com/Codesamp-Rohan/holesail-key#readme",
   "engines": {
     "node": ">=14.0.0"
   },
