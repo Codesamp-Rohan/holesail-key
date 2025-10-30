@@ -29,14 +29,12 @@ class HolesailKey {
         if(fs.existsSync(HOLESAIL_MASTER_KEY_FILE)){
             const keyContent = fs.readFileSync(HOLESAIL_MASTER_KEY_FILE, 'utf-8').trim()
             this.masterKey = Buffer.from(keyContent, 'hex')
-            console.log('Master key already created at ', HOLESAIL_MASTER_KEY_FILE, Buffer.from(this.masterKey, 'hex').toString('hex'))
         } else {
         // Generate one if does not exists
             this.masterKey = crypto.randomBytes(32)
             fs.writeFileSync(HOLESAIL_MASTER_KEY_FILE, this.masterKey.toString('hex'), {
                 mode: 0o600
             })
-            console.log('Master key created at ', HOLESAIL_MASTER_KEY_FILE)
         }
     }
 
